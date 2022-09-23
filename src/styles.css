@@ -1,0 +1,109 @@
+:root {
+  --primary-color: #2b905f;
+  --secondary-color: #faf9fd;
+}
+body {
+  background-image: url(/img/background-1.jpg);
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: black;
+  opacity: 0.8;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 40px;
+}
+h1 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 36px;
+}
+
+i {
+  padding: 0 20px;
+  color: var(--primary-color);
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+}
+footer {
+  background: var(--secondary-color);
+  text-align: center;
+}
+
+.header-for-tecnology {
+  font-size: 20px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+.header-for-works {
+  font-size: 20px;
+  margin: 50px 0;
+}
+
+.title {
+  margin-top: 180px;
+}
+.about-me-link {
+  margin-top: 550px;
+  margin-left: 210px;
+  margin-bottom: 130px;
+  font-size: 32px;
+  color: black;
+  opacity: 0.6;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+}
+.about-me-link:hover {
+  color: var(--primary-color);
+  opacity: 0.9;
+}
+.tecnology {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 160px;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+.tecnology i {
+  padding: 0;
+  color: var(--primary-color);
+}
+
+.links {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+.weather-app,
+.my-company-app {
+  weight: 550px;
+  height: 532px;
+}
+
+.about-link {
+  border-radius: 4px;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  justify-content: center;
+  margin: 0 130px;
+  display: block;
+}
+
+.email {
+  padding-top: 20px;
+  opacity: 0.9;
+}
