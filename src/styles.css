@@ -38,6 +38,10 @@ footer {
   background: var(--secondary-color);
   text-align: center;
 }
+li {
+  list-style: none;
+  display: inline-block;
+}
 
 .header-for-tecnology {
   font-size: 20px;
@@ -70,14 +74,10 @@ footer {
   background-color: var(--secondary-color);
   border-radius: 20px;
   text-align: center;
-  font-size: 160px;
+  font-size: 120px;
   max-width: 1000px;
   display: block;
   margin: 0 auto;
-}
-.tecnology i {
-  padding: 0;
-  color: var(--primary-color);
 }
 
 .links {
@@ -102,8 +102,38 @@ footer {
   margin: 0 130px;
   display: block;
 }
+.about-link:hover {
+  background: var(--primary-color);
+  color: white;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  opacity: 0.8;
+}
 
 .email {
   padding-top: 20px;
   opacity: 0.9;
+}
+
+@media (max-width: 800px) {
+  .weather-app,
+  .my-company-app {
+    weight: 350px;
+    height: 332px;
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    font-size: 14px;
+  }
+  .tecnology {
+    font-size: 100px;
+    max-width: 600px;
+  }
+  .about-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+    font-size: 14px;
+  }
 }
