@@ -24,7 +24,9 @@ h1 {
 h3 {
   font-size: 36px;
 }
-
+ul {
+  padding: 0;
+}
 i {
   padding: 0 20px;
   color: var(--primary-color);
@@ -147,11 +149,11 @@ li {
     font-size: 14px;
   }
   .about-me-link {
-    font-size: 20px;
+    font-size: 18px;
   }
   .tecnology {
     font-size: 60px;
-    max-width: 600px;
+    max-width: 550px;
   }
 }
 /* .for-bg {
