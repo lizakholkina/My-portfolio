@@ -9,7 +9,8 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
   color: black;
   opacity: 0.8;
@@ -119,6 +120,11 @@ li {
 }
 .head-nav {
   opacity: 0.9;
+}
+.my-photo {
+  width: 430px;
+  margin-top: 80px;
+  border-radius: 4px;
 }
 
 @media (max-width: 900px) {
