@@ -46,6 +46,10 @@ li {
   display: inline-block;
 }
 
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
 .header-for-tecnology {
   font-size: 20px;
   margin-top: 50px;
