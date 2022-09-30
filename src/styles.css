@@ -89,6 +89,9 @@ li {
   text-align: center;
   margin: 20px 0;
 }
+.links i:hover {
+  font-size: 22px;
+}
 .weather-app,
 .my-company-app {
   weight: 550px;
