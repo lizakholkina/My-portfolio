@@ -123,10 +123,26 @@ li {
 }
 .my-photo {
   width: 430px;
-  margin-top: 80px;
   border-radius: 4px;
+  display: block;
+  margin: 80px auto 0 auto;
+}
+.my-works-title {
+  margin-top: 70px;
 }
 
+.hobby img {
+  width: 90px;
+  padding: 0 10px;
+}
+.hobby ul {
+  display: block;
+  margin: 0 auto;
+}
+.about-me-title {
+  color: var(--primary-color);
+  font-size: 30px;
+}
 @media (max-width: 900px) {
   .weather-app,
   .my-company-app {
