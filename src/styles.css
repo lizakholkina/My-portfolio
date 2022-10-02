@@ -121,7 +121,7 @@ li {
   opacity: 0.8;
 }
 
-.repositoty {
+.repository {
   padding-top: 20px;
   opacity: 0.9;
 }
@@ -172,7 +172,7 @@ li {
   margin-top: 150px;
   color: var(--primary-color);
 }
-.repositoty a {
+.repository a {
   color: var(--primary-color);
   text-decoration: none;
 }
